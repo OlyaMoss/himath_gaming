@@ -1,0 +1,13 @@
+.h1Head{
+    /*text-shadow: 1px 2px 3px;*/
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.imgMen{
+    width: 160px;
+    height: 220px;
+    float: left;
+    padding-right: 7px;
+    padding-left: 7px;
+}

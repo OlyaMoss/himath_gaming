@@ -1,0 +1,17 @@
+/*.video{*/
+/*    position: relative;*/
+/*    padding-bottom: 56.25%;*/
+/*    z-index: 1;*/
+/*}*/
+/*.videoMedia{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
+.back{
+    background-image: url("/src/photo/main_bg.jpg");
+    background-position: left top;
+    height: 650px;
+}

@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+}
+li:link, li:visited, .h2All, .pContact{
+  color: #4c4a4a;
+}
+li:hover{
+  cursor: pointer;
+  font-weight: bolder;
+  text-shadow: 1px 2px 3px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li.navigation {
+  margin: 5px 60px;
+  font-size: 25px;
+  color: #4c4a4a;
+  border-right: 1px solid #4c4a4a;
+  padding-right: 30px;
+  margin-left: -18px;
+  text-transform: lowercase;
+  font-weight: 600;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+img.logo{
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+}
+ul.navi {
+  position: relative;
+  border-bottom: 35px solid plum;
+}
+@media screen and (max-width: 768px){
+  ul.navi {
+    border-bottom: 0;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  color: #2f2742;
+  margin-top: 20px;
+}
+h1 {
+  color: #5b5858;
+}
+p.home {
+  margin-top: 40px;
+}
+i.main {
+  color: #4c4a4a;
+  margin-top: 40px;
+}
+.product{
+  position: relative;
+  left: 25%;
+  border: 2px black solid;
+  border-radius: 3px;
+  height: 40px;
+  width: 320px;
+}
+.productWidth{
+  max-width: 1500px;
+  max-height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+button.product{
+  color: black;
+  left: 27%;
+  width: 170px;
+}
+/*table{*/
+/*  position: relative;*/
+/*  left: 25%;*/
+/*  top: 100px;*/
+/*  width: 73%;*/
+/*  border: none;*/
+/*}*/
+.icon{
+  color: grey;
+  /*position: relative;*/
+  /*top: 30%;*/
+  font-size: 160px;
+}
+.iconContact{
+  font-size: 30px;
+  color: grey;
+  margin-top: 200px;
+  margin-right: 20px;
+}
+i:hover{
+  color: plum;
+}
+.purchase{
+  position: relative;
+  left: 400px;
+  font-size: 30px;
+  width: 150px;
+  border-radius: 4px;
+}
+/*td{*/
+/*  right: 100px;*/
+/*  border-bottom: black 1px dotted;*/
+/*  border-top: black 1px dotted;*/
+/*}*/
+.headerBorder{
+  width: 40%;
+  border-bottom: 2px black solid;
+}
+.productsNav{
+  position: absolute;
+  left: 100px;
+  top: 1100px;
+  width: 15%;
+  height: 24.3%;
+  font-size: 25px;
+  border: black 2px solid ;
+}
+div.productNav:hover{
+  background-color: grey;
+  border-bottom: black 2px solid;
+}
+.containerHeight{
+  height: 800px;
+}
+.scrollToTopBtn{
+  background-color: plum;
+  border: none;
+  border-radius: 40px;
   color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s ease;
+}
+.inputMessage{
+  width: 46.80rem;
+  height: 10.66rem;
+  padding: 1rem;
+  box-shadow: 0 0 4px grey;
+  border-radius: 40px;
+  margin-left: 450px;
+  resize: none;
+  border: 1px solid grey;
+  transition: all .2s linear;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.inputAddress{
+  border-radius: 50px;
+  width: 200px;
+  margin-left: 460px;
+  box-shadow: 0 0 4px grey;
+  border: 1px solid grey;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputFullName{
+  border-radius: 50px;
+  height: 40px;
+  width: 50px;
+  margin-left: 145px;
+  box-shadow: 0 0 4px grey;
+  border: 1px solid grey;
+  cursor: pointer;
 }
+.buttonSend{
+  border-radius: 50px;
+  border: 1px solid grey;
+  height: 40px;
+  margin-left: 30px;
+  font-weight: bolder;
+  width: 150px;
+  background-color: white;
+  box-shadow: 0 0 4px grey;
+}
+.backColor{
+  background-color: rgba(238, 194, 255, 0.21);
+}
+.pContact{
+  opacity: .8;
+}
+.getInTouch{
+  margin-top: 150px;
+}
+.labelLogIn{
+  position: relative;
+  right: 170px;
+}
+.p-viewer {
+  z-index: 9999;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.resetPass:hover {
+  text-decoration: underline;
+}
+.resetPass{
+  background-color: transparent;
+  color: rgb(42, 115, 204);
+}
+.containerResetPass{
+  color: rgb(97, 97, 97);
+  font-size: 15px;
+  width: 100%;
+}
+ .borderOr {
+   height: 1px;
+   box-sizing: content-box;
+   background-color: rgb(225, 225, 225);
+   border: none;
+   width: 130px;
+ }
+ .bordProducts{
+   height: 1px;
+   box-sizing: content-box;
+   background-color: #4c4a4a;
+   border: none;
+   min-width: 1100px;
+ }

@@ -1,0 +1,29 @@
+.aboutHeaderH2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color:#5b5858;
+    margin-top: 30px;
+}
+.aboutHeaderH3{
+    text-align: center;
+}
+.aboutSuccess{
+    font-size: 60px;
+    font-weight: bold;
+    color:#5b5858 ;
+}
+.imgPortrait{
+    width: 160px;
+    height: 220px;
+    float: left;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+p{
+    font-family: "Arial Nova";
+}
+.backColor{
+    background-color: rgba(238, 194, 255, 0.21);
+    height: 800px;
+}
