@@ -11,9 +11,10 @@
     background: white;
     border-radius: 10px;
     width: 30%;
-    height: auto;
+    height: 100%;
     top:50%;
     left:50%;
+    overflow: auto;
     transform: translate(-50%,-50%);
 }
 .display-block {
@@ -29,8 +30,4 @@
     border: none;
     font-size: 30px;
     background-color: white;
-}
-.inputLogin{
-    height: 50px;
-    width: 400px;
 }

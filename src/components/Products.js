@@ -4,7 +4,7 @@ import ScrollToTop from "react-scroll-up";
 const Products = () => {
 
     return (
-        <div id='products' className='containerHeight'>
+        <div id='products' className='containerHeight position-relative'>
             <h2 className='display-3 text-center h2All'>hiMath Gaming Products</h2>
             <input placeholder='Topic' type='text' className='product'/>
             <button className='product'>Search</button>
@@ -157,14 +157,17 @@ const Products = () => {
                 {/*</div>*/}
             </div>
             <div className='list-group font-weight-bold productsNav '>
-                <a className='productNav list-group-item list-group-item-action'>Math</a>
-                <a className='productNav list-group-item list-group-item-action'>Programming</a>
-                <a className='productNav list-group-item list-group-item-action'>Physics</a>
+                <a className='list-group-item list-group-item-action'>Math</a>
+                <a className='list-group-item list-group-item-action'>Programming</a>
+                <a className='list-group-item list-group-item-action'>Physics</a>
             </div>
+
             <ScrollToTop showUnder={160}>
                 <button className='scrollToTopBtn'>Top</button>
             </ScrollToTop>
         </div>
+
+
     );
 };
 

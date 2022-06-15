@@ -1,6 +1,5 @@
 import React from 'react';
-import {backgroundVideo} from "../../utils/constants";
-import style from './home.module.css';
+import {backgroundVideo} from '../../utils/constants';
 
 const Home = () => {
     // let rootElement = document.documentElement;
@@ -22,18 +21,16 @@ const Home = () => {
     // }
     // scrollToTopBtn.addEventListener("click", scrollToTop);
     // document.addEventListener("scroll", handleScroll);
-
     return (
-        <div className='d-flex flex-column text-center p-5 containerHeight' id='home'>
-            {/*<div className={style.video}>*/}
-            {/*    <video className={style.videoMedia} src={backgroundVideo} autoPlay muted loop></video>*/}
-            {/*</div>*/}
-            <div className={style.back}>
+        <div id='home'>
+            <video id='myVideo' autoPlay muted loop >
+                <source src={backgroundVideo} type={'video/mp4'}/>
+            </video>
+
+        <div className=' text-center p-5 videoContent' id='home'>
             <h1 className='display-1 font-weight-bolder'>hiMath Gaming</h1>
             <h2 className='display-3'>Revolutionize eLearning</h2>
-            <i className="fa fa-play-circle fa-4x main"></i>
-            <p className='home'>(Promotional video here)</p>
-            </div>
+        </div>
         </div>
     );
 };

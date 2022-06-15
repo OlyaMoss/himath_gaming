@@ -24,6 +24,6 @@ p{
     font-family: "Arial Nova";
 }
 .backColor{
-    background-color: rgba(238, 194, 255, 0.21);
+    /*background-color: rgba(238, 194, 255, 0.21);*/
     height: 800px;
 }

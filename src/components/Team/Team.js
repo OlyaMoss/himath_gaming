@@ -7,9 +7,9 @@ import man3 from '../../photo/man3.jpg';
 
 const Team = () => {
     return (
-        <div className='container containerHeight' id='team'>
+        <div id='team' className='container'>
             <h1 className={style.h1Head}>The Team</h1>
-            <div className='row d-flex justify-content-around'>
+            <div className=' row d-flex justify-content-around'>
                 <div className='col-sm-5 border border-2 border-dark w-100 mt-5'>
                     <img className={style.imgMen} src={man1}/>
                     <p className='pt-2'><span className='font-weight-bolder border-bottom border-dark'>

@@ -11,7 +11,7 @@ li:hover{
   text-shadow: 1px 2px 3px;
 }
 
-li.navigation {
+.navigation {
   margin: 5px 60px;
   font-size: 25px;
   color: #4c4a4a;
@@ -21,13 +21,12 @@ li.navigation {
   text-transform: lowercase;
   font-weight: 600;
 }
-img.logo{
+#logo{
   position: absolute;
-  left: 15px;
+  right: 140%;
   top: 10px;
-  width: 250px;
+  min-width: 250px;
   height: 50px;
-  cursor: pointer;
 }
 ul.navi {
   position: relative;
@@ -37,6 +36,21 @@ ul.navi {
   ul.navi {
     border-bottom: 0;
   }
+}
+#myVideo{
+  opacity: 0.6;
+  position: relative;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  height: 20%;
+}
+.videoContent{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 h2 {
   color: #2f2742;
@@ -112,15 +126,12 @@ i:hover{
 .productsNav{
   position: absolute;
   left: 100px;
-  top: 1100px;
-  width: 15%;
+  top: 200px;
+  min-width: 15%;
   height: 24.3%;
   font-size: 25px;
+
   border: black 2px solid ;
-}
-div.productNav:hover{
-  background-color: grey;
-  border-bottom: black 2px solid;
 }
 .containerHeight{
   height: 800px;
@@ -172,6 +183,9 @@ div.productNav:hover{
   border: 1px solid grey;
   cursor: pointer;
 }
+.labelPosition{
+  margin-left: 40px;
+}
 .buttonSend{
   border-radius: 50px;
   border: 1px solid grey;
@@ -183,7 +197,7 @@ div.productNav:hover{
   box-shadow: 0 0 4px grey;
 }
 .backColor{
-  background-color: rgba(238, 194, 255, 0.21);
+  /*background-color: rgba(238, 194, 255, 0.21);*/
 }
 .pContact{
   opacity: .8;
@@ -191,16 +205,27 @@ div.productNav:hover{
 .getInTouch{
   margin-top: 150px;
 }
-.labelLogIn{
-  position: relative;
-  right: 170px;
+/*.labelLogIn{*/
+/*  position: relative;*/
+/*  right: 170px;*/
+/*}*/
+.inputLogin{
+  height: 50px;
+  width: 400px;
 }
 .p-viewer {
   z-index: 9999;
   position: absolute;
   top: 15px;
-  right: 10px;
+  right: 55px;
 }
+.p-viewerReg {
+  z-index: 9999;
+  position: absolute;
+  top: 75px;
+  right: 20px;
+}
+
 .resetPass:hover {
   text-decoration: underline;
 }
@@ -226,4 +251,10 @@ div.productNav:hover{
    background-color: #4c4a4a;
    border: none;
    min-width: 1100px;
+ }
+ .login-btn{
+   background: transparent;
+   border: none;
+   color: blue;
+   cursor: pointer;
  }
