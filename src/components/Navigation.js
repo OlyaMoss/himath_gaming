@@ -7,6 +7,9 @@ import img from "../photo/hieducation_project_2_hiDucation_horizontal_black.png"
 const Navigation = ({open}) => {
     return (
             <div className='container-fluid'>
+                <div>
+
+                </div>
                 <div className='row'>
                     <nav id='nav_background'
                          className='navbar navbar-expand-sm navbar-light fixed-top'>
