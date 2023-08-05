@@ -14,7 +14,6 @@ const Register = () => {
     const[passwordShown,setPasswordShown] = useState(false);
 
     const url = 'https://virtserver.swaggerhub.com/GregorySheygam/himath-gaming/0.0.1/user/registration';
-
     const user = {
         'email': email,
         'password': password

@@ -8,6 +8,7 @@ const Products = () => {
             <h2 className='display-3 text-center h2All'>hiMath Gaming Products</h2>
             <input placeholder='Topic' type='text' className='product'/>
             <button className='product'>Search</button>
+x
 
 
         {/*    <table>*/}
